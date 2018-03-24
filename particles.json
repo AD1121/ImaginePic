@@ -10,7 +10,7 @@
       "type": "circle",
       "stroke":{
         "width": 1,
-        "color": "#ccc"
+        "color": "#ccc" 
       }
     },
     "opacity":{
