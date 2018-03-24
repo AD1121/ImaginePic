@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling and setting background image for section */
+#intro {
+  background-image: url(../images/intro-bg.jpeg); 
+  height: 400px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 5px solid #3d3d29;
+  position: relative;
+}
+
+/* Styling the row inside the intro section */
+.row-intro {
+  background: rgba(0,0,0,0.2); 
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* styling the intro text to white */
+.intro-text {
+  text-align: center;
+  padding-top: 100px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 35px;
+  color: #fff;
+
+}
+
+/* using the google font for the nav text */
+.nav-title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.pageTitles {
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  padding-bottom: 0.5rem;
+  color: #000;
+  border-left: 4px solid #000;
+  padding-left: 30px;
+}
+
+.hr-recent {
+  background-color: #000;
+}
+
+.hr-footer {
+  background-color: #000;
+}
+
+.hr-pic {
+  border-top: solid 2px #000;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+/* styling the p element */
+p {
+  font-family: sans-serif, Arial, serif;
+}
+
+/* putting space between the 2 sections */
+.titles {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+img {
+  margin-bottom: 5px;
+}
+
+.dropdown-item {
+  border-bottom: 1px solid rgb(223, 219, 219);
+}
+
+.dropdown-item:last-child {
+  border-bottom: none;
+}
+
+.about-text {
+  padding-left: 2%;
+  padding-right: 2%;
+  font-family: 'Cardo', cursive;
+  font-weight: bold;
+  text-align: justify;
+  text-justify: newspaper;
+  margin-top: 10%;
+}
+
+.footer-text {
+  color: #fff;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+footer {
+  padding-top: 1%;
+  border-top: 2px solid #3d3d29;
+}
+
+#myModal {
+  padding-top: 100px; /* Location of the box */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.sideline {
+  width: 140px;
+  height: 2px;
+  background-color: black;
+}
