@@ -10,3 +10,5 @@ To run live-server is needed. I used the live server in Visual Studio Code but g
   live-server
 
 ```
+
+If you are using Visul Studio Code as a editor you can choose live-server there.
