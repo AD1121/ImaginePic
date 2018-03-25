@@ -2,3 +2,11 @@
 
 To run live-server is needed. I used the live server in Visual Studio Code but goes well with NPM live-server as well.
 
+<!-- Code Blocks -->
+```bash 
+
+  npm install live-server
+
+  live-server
+
+```
