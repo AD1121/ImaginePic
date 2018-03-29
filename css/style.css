@@ -97,6 +97,27 @@ img {
   padding-bottom: 5px;
   background-size: cover;
   min-height: 100%;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+.liked {
+  /* z-index: 100; */
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  top: 212px;
+  display: none;
+  height: 50px;
+  background-color: #000;
+  width: 93%;
+  background: rgba(0,0,0,0.7); 
+}
+
+img:hover + .liked {
+  display: inline-block;
 }
 
 .dropdown-item {
