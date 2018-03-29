@@ -16,24 +16,41 @@
 
 /* Styling the row inside the intro section */
 .row-intro {
+  height: 100%;
   background: rgba(0,0,0,0.2); 
   position: absolute;
   width: 100%;
-  height: 100%;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* styling the intro text to white */
-.intro-text {
+/* styling the intro text */
+.intro-title {
   text-align: center;
-  padding-top: 100px;
-  font-family: 'Dancing Script', cursive;
-  font-size: 35px;
+  padding-top: 105px;
+  /* font-family: 'Roboto', cursive; */
+  font-size: 25px;
   color: #fff;
+}
 
+.intro-text {
+  color: #fff;
+  font-size: 20px;
+}
+
+.line {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #fff;
+}
+
+.title-line {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #000;
 }
 
 /* using the google font for the nav text */
@@ -44,12 +61,11 @@
 }
 
 .pageTitles {
-  font-family: 'Dancing Script', cursive;
-  font-size: 50px;
+  /* font-family: 'Dancing Script', cursive; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
   padding-bottom: 0.5rem;
   color: #000;
-  border-left: 4px solid #000;
-  padding-left: 30px;
 }
 
 .hr-recent {
@@ -78,7 +94,9 @@ p {
 }
 
 img {
-  margin-bottom: 5px;
+  padding-bottom: 5px;
+  background-size: cover;
+  min-height: 100%;
 }
 
 .dropdown-item {
