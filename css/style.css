@@ -30,7 +30,6 @@
 .intro-title {
   text-align: center;
   padding-top: 105px;
-  /* font-family: 'Roboto', cursive; */
   font-size: 25px;
   color: #fff;
 }
@@ -61,25 +60,10 @@
 }
 
 .pageTitles {
-  /* font-family: 'Dancing Script', cursive; */
   font-family: Arial, Helvetica, sans-serif;
   font-size: 28px;
   padding-bottom: 0.5rem;
   color: #000;
-}
-
-.hr-recent {
-  background-color: #000;
-}
-
-.hr-footer {
-  background-color: #000;
-}
-
-.hr-pic {
-  border-top: solid 2px #000;
-  margin-top: 10px;
-  padding-top: 10px;
 }
 
 /* styling the p element */
@@ -93,6 +77,8 @@ p {
   margin-bottom: 2rem;
 }
 
+/* imng Element  */
+/* -------------------------------------------------------- */
 img {
   padding-bottom: 5px;
   background-size: cover;
@@ -101,6 +87,11 @@ img {
   left: 0;
   top: 0;
 }
+
+img:hover + .liked {
+  display: inline-block;
+}
+/* -------------------------------------------------------- */
 
 .picHolder {
   padding-bottom: 5px;
@@ -124,12 +115,12 @@ img {
   padding-top: 4px;
 }
 
-img:hover + .liked {
+.liked:hover {
   display: inline-block;
 }
 
-.liked:hover {
-  display: inline-block;
+.fa-heart:hover {
+  color: red;
 }
 
 .dropdown-item {
@@ -150,25 +141,23 @@ img:hover + .liked {
   margin-top: 10%;
 }
 
-.footer-text {
-  color: #fff;
-  padding-bottom: 2rem;
-  padding-top: 1rem;
-}
-
-footer {
-  padding-top: 1%;
-  border-top: 2px solid #3d3d29;
-}
-
+/* Styling the picture Modal */
 #myModal {
   padding-top: 100px; /* Location of the box */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
-.sideline {
-  width: 140px;
-  height: 2px;
-  background-color: black;
+/* Footer  */
+/* -------------------------------------------------------- */
+footer {
+  padding-top: 1%;
+  border-top: 2px solid #3d3d29;
 }
+
+.footer-text {
+  color: #fff;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+/* -------------------------------------------------------- */
