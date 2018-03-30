@@ -6,7 +6,7 @@ To run live-server is needed. I used the live server in Visual Studio Code but g
 <!-- Code Blocks -->
 ```bash 
 
-  npm install live-server
+  npm install -g live-server
 
   live-server
 
