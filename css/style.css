@@ -99,6 +99,8 @@ img:hover + .liked {
   min-height: 100%;
 }
 
+/* the Like heart  */ 
+/* -------------------------------------------------------- */
 .liked {
   position: absolute; 
   color: white;
@@ -122,6 +124,7 @@ img:hover + .liked {
 .fa-heart:hover {
   color: red;
 }
+/* -------------------------------------------------------- */
 
 .dropdown-item {
   border-bottom: 1px solid rgb(223, 219, 219);
