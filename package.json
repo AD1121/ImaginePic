@@ -1,0 +1,24 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "My Gallery Website",
+  "main": "gulp.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "npm": "^5.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AD1121/ImaginePic.git"
+  },
+  "author": "Sina Gh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AD1121/ImaginePic/issues"
+  },
+  "homepage": "https://github.com/AD1121/ImaginePic#readme"
+}
