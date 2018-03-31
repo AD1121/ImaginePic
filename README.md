@@ -1,5 +1,5 @@
 <!-- Headings -->
-# Gallery Website Build With Bootstrap 4 and Particles.Js
+# Gallery Website Build With Bootstrap 4 and Particles.Js Using Gulp
 
 To run live-server is needed. I used the live server in Visual Studio Code but goes well with NPM live-server as well.
 
