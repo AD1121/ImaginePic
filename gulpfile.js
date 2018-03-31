@@ -11,3 +11,10 @@ gulp.task('copyHTML', function() {
   gulp.src('src/*.html')
     .pipe(gulp.dest('dist'));
 });
+
+// Optimize Images
+gulp.task('imageMin', () =>
+	gulp.src('src/images/*')
+		.pipe(imagemin())
+		.pipe(gulp.dest('dist/images'))
+);
