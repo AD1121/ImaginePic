@@ -20,9 +20,21 @@ gulp.task('imageMin', () =>
 		.pipe(gulp.dest('dist/images'))
 );
 
-// Uglify the javascrips
+// Copy JS
 gulp.task('javascripts', function() {
   gulp.src('src/js/*.js')
     .pipe(uglify())
-    .pipe(gulp.dest('dist/js'))
+    .pipe(gulp.dest('dist/js'));
+});
+
+// Copy the css file 
+gulp.task('copyCSS', function() {
+  gulp.src('src/css/*.css')
+    .pipe(gulp.dest('dist/css'));
+});
+
+// copy particles.JSON file
+gulp.task('copyJSON', function() {
+  gulp.src('src/particles.json')
+    .pipe(gulp.dest('dist'))
 });
