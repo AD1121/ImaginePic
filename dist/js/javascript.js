@@ -1,0 +1,1 @@
+var d=new Date,fullYear=d.getFullYear();document.getElementById("year").innerHTML=fullYear,$(document).ready(function(){$(".popupimage").click(function(e){e.preventDefault(),$(".modal img").attr("src",$(this).attr("href")),$(".modal").modal("show")})}),particlesJS.load("intro","particles.json",function(){console.log("particles.json loaded...")});

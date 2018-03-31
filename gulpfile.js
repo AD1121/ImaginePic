@@ -1,5 +1,6 @@
 const gulp = require('gulp');
 const imagemin = require('gulp-imagemin');
+const uglify = require('gulp-uglify');
 
 // Logs Message
 gulp.task('message', function() {
@@ -18,3 +19,10 @@ gulp.task('imageMin', () =>
 		.pipe(imagemin())
 		.pipe(gulp.dest('dist/images'))
 );
+
+// Uglify the javascrips
+gulp.task('javascripts', function() {
+  gulp.src('src/js/*.js')
+    .pipe(uglify())
+    .pipe(gulp.dest('dist/js'))
+});
