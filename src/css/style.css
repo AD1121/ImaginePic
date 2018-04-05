@@ -1,7 +1,7 @@
 /* Variables */
 /*--------------------------------------------------------------*/
 :root {
-  
+  --dancing-font: 'Dancing Script', cursive;
 }
 /*--------------------------------------------------------------*/
 
@@ -61,7 +61,7 @@
 
 /* using the google font for the nav text */
 .nav-title {
-  font-family: 'Dancing Script', cursive;
+  font-family: var(--dancing-font);
   font-size: 25px;
   font-weight: bolder;
 }
@@ -129,7 +129,7 @@ img:hover + .liked {
 }
 
 .fa-heart:hover {
-  color: red;
+  color: red; /* Like heart on the pictures when you hover */
 }
 /* -------------------------------------------------------- */
 
