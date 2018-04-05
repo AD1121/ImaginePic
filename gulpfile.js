@@ -39,3 +39,4 @@ gulp.task('copyJSON', function() {
     .pipe(gulp.dest('dist'))
 });
  
+gulp.task('default', ['message', 'copyHTML', 'imageMin', 'javascripts', 'copyCSS', 'copyJSON']);
