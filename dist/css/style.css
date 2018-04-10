@@ -90,14 +90,14 @@ img {
   padding-bottom: 5px;
   background-size: cover;
   min-height: 100% !important;
-  position: relative;
-  left: 0;
-  top: 0;
+  /* position: relative; */
+  /* left: 0;
+  top: 0; */
 }
 
-img:hover + .liked {
+/* img:hover + .liked {
   display: inline-block;
-}
+} */
 /* -------------------------------------------------------- */
 
 .picHolder {
@@ -108,7 +108,7 @@ img:hover + .liked {
 
 /* the Like heart  */ 
 /* -------------------------------------------------------- */
-.liked {
+/* .liked {
   position: absolute; 
   color: white;
   font-size: 24px;
@@ -126,7 +126,7 @@ img:hover + .liked {
 
 .liked:hover {
   display: inline-block;
-}
+} */
 
 .fa-heart:hover {
   color: red; /* Like heart on the pictures when you hover */
@@ -171,3 +171,19 @@ footer {
   padding-top: 1rem;
 }
 /* -------------------------------------------------------- */
+
+.card {
+  border: none;
+}
+
+.card-img-overlay {
+  color: #fff;
+  text-align: right;
+  font-size: 22px;
+  height: 50px;
+  background-color: #000;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background: rgba(0,0,0,0.7);
+  z-index: 500;
+}
